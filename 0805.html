@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0805</title>
+    <style>
+        .mydiv{display: flex;}
+        .mydiv>*{margin: 0 2px;}
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>정원영 인간 관계</legend>
+            <select>
+                <option value=""></option>
+                <option value="김은석">김은석</option>
+                <option value="남윤혁">남윤혁</option>
+                <option value="송채연">송채연</option>
+                <option value="여준성">여준성</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>정원영 신상 정보</legend>
+            <div class="mydiv">
+                <input type="text" placeholder="신상 캐내기">
+                <input type="button" value="검색">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>정원영 오늘 할 일</legend>
+            <label><input type="checkbox"> 낙지 절단하기<br></label>
+            <label><input type="checkbox"> 낙지 민물에 넣기<br></label>
+            <label><input type="checkbox"> 낙지 소금으로 박박 씻기<br></label>
+        </fieldset>
+        <fieldset>
+            <legend>정원영의 퀴즈쇼</legend>
+            <p class="myp">정원영의 나이는?</p>
+            <label><input type="radio" name="dmddo"> 17세<br></label>
+            <label><input type="radio" name="dmddo"> 18세<br></label>
+            <label><input type="radio" name="dmddo"> 19세<br></label>
+        </fieldset>
+        <fieldset>
+            <legend>정원영의 시크릿 노트</legend>
+            <textarea cols="30" rows="10"></textarea>
+            <input type="submit" value="완료">
+            <input type="reset" value="비밀">
+        </fieldset>
+    </form>
+</body>
+</html>
