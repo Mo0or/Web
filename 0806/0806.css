@@ -1,0 +1,4 @@
+.div_3 > div > div:nth-child(n+3){
+    background-color: black;
+    color: white;
+}
