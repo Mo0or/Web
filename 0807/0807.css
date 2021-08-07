@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+#div_1{
+    background-color: black;
+    color:  white;
+    padding: 10px;
+    border: 5px dotted yellow;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100px;
+    position: sticky;
+    float: left;
+    top: 0px;
+}
+
+.div_4{
+    background-color: green;
+    height: 50px;
+    overflow: hidden;
+}
+
+.div_3{
+    clear: left;
+}
+
+span{
+    display: inline-block;
+    width: 100px;
+    background-color: red;
+}

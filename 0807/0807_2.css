@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+
+.topbar > img{
+    width: 50px;
+    position: relative;
+    left: 194px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.topbar{
+    display: flex;
+    background-color: #d1ffe0;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar > *{
+    margin: 0 10px;
+}
+
+.topbar-ul > *{
+    display: flex;
+}
+
+.topbar-ul > * > *{
+    margin: 0 10px;
+    flex: 1;
+    width: 100px;
+}
