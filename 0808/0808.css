@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.my_div {
+    background-color: black;
+    display: flex;
+    height: 500px;
+    text-align: center;
+    justify-content: space-between; 
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.my_div > * {
+    width: 100px;
+    height: 100px;
+}
+
+.my_div > :nth-child(1) {
+    background-color: white;
+}
+
+.my_div > :nth-child(2) {
+    background-color: blanchedalmond;
+}
+
+.my_div > :nth-child(3) {
+    background-color: blue;
+}
+
+.my_div > :nth-child(4) {
+    background-color: blueviolet;
+}
+
+.my_div > :nth-child(5) {
+    background-color: brown;
+}
