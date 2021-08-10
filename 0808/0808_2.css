@@ -15,6 +15,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #f0fff5;
+}
+
 .body_div {
     text-align: center;
     width: 1250px;
@@ -24,6 +28,10 @@
     background-color: #f0fff5;
     border-left: 2px solid #ccc;
     border-right: 2px solid #ccc;
+}
+
+.body_div {
+    background-attachment: scroll;
 }
 
 .sidebar {
@@ -137,13 +145,13 @@
     left: 194px;
 }
 
-li{
+ul{
     list-style-type: none;
 }
 
 .topbar{
     display: flex;
-    background-color: #d1ffe0;
+    background-color: #deffe9;
     height: 110px;
     justify-content: center;
     align-items: center;
@@ -161,4 +169,133 @@ li{
     margin: 0 10px;
     flex: 1;
     width: 100px;
+}
+
+.backImg_left_1, .backImg_right_1 {
+    width: 300px;
+    height: 300px;
+    top: 300px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbar_ul_list {
+    max-height: 0px;
+    background-color: #d1ffe0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+}
+
+#memo {
+    width: 70px;
+    padding: 10px 0;
+}
+
+.topbarul li:nth-of-type(n):hover:not(#memo) {
+    background-color: #d1ffe0;
+    transition: 0.3s;
+}
+
+.topbarul li:nth-of-type(n):hover:not(#memo) .topbar_ul_list {
+    max-height: 100%;
+    transition: max-height 0.3s;
+}
+
+.navdiv {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s;
+}
+
+.topbar {
+    background-color: #deffe9;
+    border-bottom: 2px solid #ccc;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.topbarul {
+    width: 100%;
+    display: flex;
+}
+
+.topbar_ul_items {
+    background: linear-gradient(to left, #deffe9 50%, #c5edd2 50%) right;
+    background-size: 200%;
+    transition: 0.3s ease-out;
+}
+
+.topbar_ul_items:hover {
+    background-position: left;
+}
+
+.topbarul > li {
+    flex: 1;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -7px;
+    left: 210px;
+}
+
+.navtitle {
+    width: 400px;
+    height: 75px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-color: #deffe9;
+}
+
+.topbarul > li > div:nth-of-type(2n-1) {
+    padding: 10px 0;
+}
+
+.topbar_ul_list > ul > li {
+    margin: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #aaa;
+}
+
+.topbar_ul_list > ul > li:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#memo > a {
+    color: black;
+    text-decoration: none;
+}
+
+#memo > a:hover {
+    font-weight: bold;
+}
+
+.logobtn {
+    position: relative;
+}
+
+.logobtn:hover {
+    cursor: pointer;
+}
+
+.topbar_ul li {
+    background: linear-gradient(to left, #d1ffe0 50%, #c5edd2 50%) right !important;
+    background-size: 200% !important;
+    transition: 0.3s ease-out !important;
+}
+
+.topbar_ul li:hover {
+    background-position: left !important;
 }
