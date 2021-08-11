@@ -271,3 +271,38 @@ a {
 .topbar_ul li:hover {
     background-position: left !important;
 }
+
+.saction_1 > article > h1 {
+    padding: 50px;
+}
+
+img {
+    width: 700px;
+}
+
+.deco {
+    text-decoration: line-through;
+}
+
+.article_2 > p,
+.article_3 > ul > li > p,
+.article_4 > p,
+.article_5 > ul > li > p,
+.article_6 > p:not(.red_){
+    font-size: 0.85em;
+    line-height: 25px;
+}
+
+.textimg {
+    width: 50%;
+}
+
+.red_ {
+    color: red;
+    display: inline;
+}
+
+.sideonoff {
+    text-align: right;
+    padding: 20px;
+}
