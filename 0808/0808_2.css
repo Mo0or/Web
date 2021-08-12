@@ -306,3 +306,31 @@ img {
     text-align: right;
     padding: 20px;
 }
+
+footer {
+    background-color: #deffe9;
+    border-top: 1px solid #ccc;
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #deffe9;
+}
+
+.footergithub {
+    color: black;
+}
+
+.footergithub:hover {
+    color: slategray;
+}
+
+.githublogo {
+    width: 15px;
+}
