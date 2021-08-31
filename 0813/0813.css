@@ -28,12 +28,8 @@ border: DDDDDD */
     width: 100%;
     padding: 30px;
     margin: 0;
-    padding-bottom: 30px;
-    display: flex;
-}
-
-.navdiv > * {
-    flex: 1;
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 
 .topbar {
@@ -44,31 +40,16 @@ border: DDDDDD */
     top: 0px;
 }
 
-.topbar_ul {
+.topbar_ul > *{
     display: flex;
-    align-items: center;
 }
 
-.topbar_ul > * {
-    display: flex;
+.topbar_ul > * > *{
     flex: 1;
-}
-
-.topbar_ul > * > * {
-    flex: 1;
-}
-
-.topbar_ul > ul > li > a {
-    text-decoration: none;
-    color: black;
-}
-
-.topbar_ul > ul > li > a:hover {
-    color: gray;
 }
 
 .logobtn > * {
-    display: inline-block;
+    display: inline;
 }
 
 ul {
@@ -80,7 +61,6 @@ ul {
     text-align: center;
 }
 
-
 .art_2 {
     background-color: #CDC9C3;
     text-align: center;
@@ -89,11 +69,6 @@ ul {
 .art_3 {
     background-color: #FFFFFF;
     
-}
-
-.textimg {
-    width: 500px;
-    height: 300px;
 }
 
 .line {
@@ -107,6 +82,7 @@ ul {
 }
 
 .footerdiv {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
